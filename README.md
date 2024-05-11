@@ -35,7 +35,7 @@ All other attribute names are tread as field names in the payload. So far, only 
 Missing fields will have a null value. The null check occurs on the postgres side and may occur after the limit (it will most likely be changed in the future).
 ## Examples
 
-```postgresql
+```sql
 create extension qdrant_fdw;
 
 create server foreign_server
